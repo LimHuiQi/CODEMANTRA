@@ -1,0 +1,47 @@
+package codemantra;
+
+public class Task {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//1. Create an array of String data type that consists of your full name. 
+		//e.g. Mazuqi (index 0) Adha (index 1). 
+		//After that printout all element in an array using loop.
+		
+		//2. Create a variable with the name myAge=15, theirAge=20.
+		//print out “I am older” if myAge > theirAge and print out “I am younger” if myAge < theirAge
+
+		System.out.println("Java Basics");
+		System.out.println();
+		System.out.println("Question 1: ");
+		String [] name = {"LIM", "HUI", "QI"};
+		
+		for (int i=0; i<name.length; i++)
+		{
+			System.out.print(name[i] + " ");
+		}
+		
+		System.out.print("\n\n");
+		
+		System.out.println("Question2: ");
+		int myAge = 15;
+		int theirAge = 20;
+		
+		if (myAge > theirAge)
+		{
+			System.out.println("I am older");
+		}
+		
+		else if (myAge < theirAge)
+		{
+			System.out.println("I am younger");
+		}
+		
+		else
+		{
+			System.out.println("Same age");
+		}
+	}
+
+}
